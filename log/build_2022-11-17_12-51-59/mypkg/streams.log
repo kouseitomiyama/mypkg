@@ -1,0 +1,42 @@
+[0.346s] Invoking command in '/home/tomiyama/ros2_ws/src/mypkg': PYTHONPATH=/home/tomiyama/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/tomiyama/ros2_ws/src/mypkg/install/mypkg --record /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.463s] running egg_info
+[0.463s] creating build/mypkg/mypkg.egg-info
+[0.463s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.463s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.463s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.464s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.464s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.464s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.482s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.483s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.483s] running build
+[0.483s] running build_py
+[0.483s] creating /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/build
+[0.484s] creating /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.484s] creating /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.484s] copying mypkg/talker.py -> /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.484s] copying mypkg/listener.py -> /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.484s] copying mypkg/__init__.py -> /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.484s] running install
+[0.484s] running install_lib
+[0.485s] creating /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.485s] copying /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.485s] copying /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.485s] copying /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.485s] byte-compiling /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/talker.py to talker.cpython-36.pyc
+[0.486s] Sorry: IndentationError: unexpected indent (listener.py, line 5)
+[0.486s] byte-compiling /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/listener.py to listener.cpython-36.pyc
+[0.486s] byte-compiling /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/__init__.py to __init__.cpython-36.pyc
+[0.486s] running install_data
+[0.486s] creating /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[0.486s] creating /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[0.486s] creating /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.486s] copying resource/mypkg -> /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.486s] copying package.xml -> /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.487s] running install_egg_info
+[0.487s] Copying build/mypkg/mypkg.egg-info to /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[0.488s] running install_scripts
+[0.499s] Installing listener script to /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.500s] Installing talker script to /home/tomiyama/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.500s] writing list of installed files to '/home/tomiyama/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.513s] Invoked command in '/home/tomiyama/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/tomiyama/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/tomiyama/ros2_ws/src/mypkg/install/mypkg --record /home/tomiyama/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
