@@ -7,11 +7,11 @@ def generate_launch_description():
     
     talker = launch_ros.actions.Node(
             package='mypkg',
-            executable='talker',
+            node_executable='talker',
             )
     listener = launch_ros.actions.Node(
             package='mypkg',
-            executable='listener',
+            node_executable='listener',
             output='screen'
             )
     

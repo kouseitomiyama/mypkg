@@ -6,7 +6,7 @@ rclpy.init()
 node = Node("talker")            #ノード作成（nodeという「オブジェクト」を作成）
 pub = node.create_publisher(Int16, "countup", 10)   #パブリッシャのオブジェクト作成
 n = 0 #カウント用変数i
-def cb():          #17行目で定期実行されるコールバック関数
+def cb():      #17行目で定期実行されるコールバック関数
     global n       #関数を抜けてもnがリセットされないようにして
     msg = Int16()  #メッセージの「オブジェクト」
     msg.data = n   #msgオブジェクトの持つdataにnを結び付け
